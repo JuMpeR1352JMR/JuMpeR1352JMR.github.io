@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lubie szybke furki</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <title>Golfy</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+   <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Bitter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>GOLFY</h1>
+      <h2>Strona na temat hobby</h2>
+
+      <div id="menu_box">
+        <ul>
+          <a href="index.html"><li>STRONA GŁÓWNA</li></a>
+          <a href="strzelanie.html"><li>STRZELANIE Z WYDECHU</li></a>
+          <a href="dzwiek.html"><li>DŹWIĘK SILNIKA</li></a>
+          <a href="kontakt.html"><li>KONTAKT</li></a>
+        </ul>
+      </div>
+    </div>
+
+    <div id="content_box">
+      <h2>
+        Skontaktuj się ze mną
+      </h2>
+
+      <p>Tutaj można wysłać do mnie wiadomość<br /></p>
+
+      <form method="post" class="form" action="mailto:arek@gmail.com">
+        Imię:
+        <input
+          type="text"
+          name="imie"
+          size="35"
+          maxlength="90"
+          placeholder="Podaj imie:"
+          required
+        /><br />
+        Nazwisko:
+        <input
+          type="text"
+          name="nazwisko"
+          size="35"
+          placeholder="Podaj nazwisko:"
+          maxlength="90"
+          required
+        /><br />
+        Email:
+        <input
+          type="email"
+          name="email"
+          size="35"
+          placeholder="Podaj email:"
+          maxlength="90"
+          required
+        /><br />
+        <br /><br />
+        Wiadomość: <br />
+        <input
+        placeholder="Podaj wiadomosc:"
+          type="text"
+          name="wiadomosc"
+          width="800px"
+          size="100"
+          style="height: 200px"
+          required
+        /><br /><br />
+
+        Jaki Wydech chciałbyś mieć?<br />
+        <label><input type="radio" name="gender" value="AUDI" checked />BAAZOK</label>
+        
+        <label><input type="radio" name="gender" value="BMW" /> AKROPOVIC</label>
+        <label><input type="radio" name="gender" value="MERCEDES" /> BMW</label>
+        <label><input type="radio" name="gender" value="VW" />BTECH</label>
+        <label><input type="radio" name="gender" value="VW" /> Inny Wydech</label>
+        <br /><br />
+        <input type="reset" value="RESET" />
+        <input type="submit" value="WYŚLIJ" />
+      </form>
+    </div>
+  </body>
+</html>
